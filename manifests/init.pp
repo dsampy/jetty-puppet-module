@@ -1,3 +1,3 @@
 class jetty {
-  include jetty::install, jetty::config, jetty::service
+  include jetty::params, jetty::install, jetty::config, jetty::service
 }
